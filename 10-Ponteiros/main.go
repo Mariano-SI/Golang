@@ -36,7 +36,7 @@ func main() {
 
 	fmt.Println(variavel3, ponteiro)// 100 0xc00000a130
 
-	//como vimos ponteiro fguarda um endereço e para vermos esse endereço usamos * antes da variavel
+	//como vimos ponteiro guarda um endereço e para acessarmos o valor do endereço * antes da variavel (desreferenciação)
 
 	fmt.Println(*ponteiro) //100 desreferenciação
 
