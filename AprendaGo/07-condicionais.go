@@ -15,5 +15,5 @@ func main() {
 		fmt.Println("y é igual a 1")
 	}
 
-	fmt.Println(y) //erro pois ele só é acessivel no scopo do init e depois "morre"
+	//fmt.Println(y) //erro pois ele só é acessivel no scopo do init e depois "morre"
 }
