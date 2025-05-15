@@ -9,4 +9,11 @@ func main() {
 	if idade < 30 {
 		fmt.Println("Ainda nao chegou aos 30")
 	}
+
+	toCansado := false
+	if toCansado {
+		fmt.Println("Vai descansar")
+	}else{
+		fmt.Println("Continue estudando")
+	}
 }
