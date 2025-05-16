@@ -81,4 +81,27 @@ func main() {
 		[]int{7,8,9},
 	}
 
+	fmt.Println(sliceDeSlice)
+
+	//map: sao excelentes em operacoes de busca
+
+	amigos := map[string]int{
+		"Alfredo":33333,
+		"Joaozinho": 123414,
+	}
+
+	amigos["Teste"] = 124214
+
+
+	fmt.Println(amigos)
+	fmt.Println(amigos["Joaozinho"])
+
+	for key, value := range amigos {
+		fmt.Println(key,value)
+	}
+
+	//como deletar um elemento do map
+	delete(amigos, "Joaozinho")
+
+	fmt.Println(amigos)
 }
