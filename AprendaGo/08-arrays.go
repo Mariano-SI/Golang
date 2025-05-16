@@ -73,4 +73,12 @@ func main() {
 
 	fmt.Println("sliceComMake", sliceComMake, len(sliceComMake), cap(sliceComMake)) //cap = 20
 
+	//slices multi dimencionais = slice de slices
+
+	sliceDeSlice := [][]int{
+		[]int{1,2,3},
+		[]int{4,5,6},
+		[]int{7,8,9},
+	}
+
 }
